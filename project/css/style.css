@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), 
+    local('Roboto-Bold'), 
+    url('../fonts/roboto/Roboto-Bold.woff2') format("woff2"), 
+    url('../fonts/roboto/Roboto-Bold.woff') format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Regular'), 
+    local('Roboto-Regular'), 
+    url('../fonts/roboto/Roboto-Regular.woff2') format("woff2"), 
+    url('../fonts/roboto/Roboto-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), 
+    local('Roboto-Medium'), 
+    url('../fonts/roboto/Roboto-Medium.woff2') format("woff2"), 
+    url('../fonts/roboto/Roboto-Medium.woff') format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), 
+    local('Roboto-Light'), 
+    url('../fonts/roboto/Roboto-Light.woff2') format("woff2"), 
+    url('../fonts/roboto/Roboto-Light.woff') format("woff");
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #222;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 580px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.p_title {
+  margin-top: 20%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.nav_center {
+  margin: 0 0 0 35%;
+}
+
+.index {
+  position: fixed;
+  z-index: 9;
+}
+
+.butt_top {
+  border-bottom: 2px solid #fff;
+}
+
+.brand-logo img {
+  width: 150px;
+  height: 100px;
+  margin: 0;
+  margin-right: 50px;
+}
+
+.container2 {
+  background-color: #222;
+}
+
+.white-text3 {
+  margin-left: 300px;
+  color: #fff;
+}
+
+.img_o {
+  opacity: 50%;
+}
+
+.light,
+.center,
+.link,
+.bmw p,
+.audi p {
+  color: white;
+}
+
+.audi,
+.bmw {
+  font-size: 80px;
+  color: black;
+}
+
+.browser-default {
+  color: #222
+}
+
+.wrapper {
+  display: none;
+}
+
+.wrapper--open {
+  display: block;
+}
+
+.list {
+  list-style: none;
+  border: 1px solid #000;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contact_info {
+  width: 40%;
+}
+
+.btn {
+  margin-left: 900px;
+}
